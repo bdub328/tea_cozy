@@ -56,7 +56,7 @@ nav span a {
   margin-left: 10px;
 
 }
-/* Content - Mission */
+
 
 .main {
   padding-top: 60px;
@@ -64,6 +64,9 @@ nav span a {
   width: 1200px;
   margin: auto;
 }
+
+
+/* Content - Mission */
 
 .flex-container {
   display: flex;
@@ -93,7 +96,6 @@ width: 1000px;
 height: 700px;
 width: 1000px;
 padding-top: 70px;
-
 }
 
 .flex-container .items {
@@ -109,3 +111,30 @@ padding-top: 70px;
   display: block;
   /* Why is it block here? */
 }
+
+.item span {
+  padding: 5px;
+  display: block;
+
+}
+
+/* Locations */
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: block;
+}
+
+.flex-container .addresses {
+  justify-content: space-between;
+}
+
+.single {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+/* Footer */
